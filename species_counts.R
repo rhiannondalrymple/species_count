@@ -1,4 +1,4 @@
-# Count the number of individuals of each species in a data file
+#change for github proofing # Count the number of individuals of each species in a data file
 #
 # Input file format:
 #
