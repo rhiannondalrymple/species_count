@@ -1,0 +1,5 @@
+#runsRscodefor species counts then gets 
+##the most abundant species and makes a new txt with that data
+Rscript species_counts.R data_greencanyon_2013.txt|
+sort -k 2 -n |
+tail -1 > mostabundant_species.txt

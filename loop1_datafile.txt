@@ -1,0 +1,5 @@
+for datafile in data*
+ do
+	echo $datafile
+	Rscript species_counts.R $datafile
+ done

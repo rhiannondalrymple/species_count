@@ -1,0 +1,71 @@
+    1  PWD
+    2  ls -f
+    3  cd/destop/softcarp
+    4  cd /Desktop/softcarp
+    5  cd /Desktop/softcarp/
+    6  pwd
+    7  mkdir
+    8  ls
+    9  ls -F
+   10  cd /c/users/Rhiannon/MyDocuments/softcarp
+   11  pwd
+   12  cd /c/Users/Rhiannon/MyDocuments/softcarp
+   13  cd /c/Users/Rhiannon/My Documents/softcarp
+   14  cd /c/Users/Rhiannon/My Documents/softcarp
+   15  pwd
+   16  cd /c/Users/Rhiannon/softcarp
+   17  Is
+   18  ls
+   19  pwd
+   20  mkdirtemp
+   21  mkdir temp
+   22  mv data.txt /temp
+   23  ls
+   24  mv data.txt data_greencanyon_2013.txt
+   25  mv data2.txt data_greencanyon_2013.txt
+   26  ls
+   27  mkdir backup
+   28  ls
+   29  ls -F
+   30  cp data_greencanyon_2013.txt
+   31  cp data_greencanyon_2013.txt data_greencanyon_2013_bkup.txt
+   32  mv  data_greencanyon_2013_bkup.txt /backup
+   33  cat  data_greencanyon_2013.txt
+   34  sort  data_greencanyon_2013.txt
+   35  sort -k 3 -n data_greencanyon_2013.txt 
+   36  sort -k 3 -n data_greencanyon_2013.txt > sorted_counts.txt
+   37  ls
+   38  cat sorted_counts.txt 
+   39  tail sorted_counts.txt 
+   40  tail -3 sorted_counts.txt 
+   41  tail -1 sorted_counts.txt 
+   42  tail -1 sorted_counts.txt > most_absp.data
+   43  head -3 sorted_counts.txt 
+   44  head -1 sorted_counts.txt 
+   45  head -1 sorted_counts.txt > least_absp.txt
+   46  tail -1 sorted_counts.txt > most_absp.txt
+   47  ls
+   48  mv most_absp.data /temp
+   49  ls
+   50  cat sorted_counts.txt 
+   51  head -2 sorted_counts.txt > least_absp.txt 
+   52  cat least_absp.txt 
+   53  sort -k 3 -n data_greencanyon_2013.txt 
+   54  sort -k 3 -n data_greencanyon_2013.txt | head -2 
+   55  Rscript species_counts.R  data_greencanyon_2013.txt 
+   56  ls
+   57  Rscript species_counts.R  data_greencanyon_2013.txt 
+   58  exit
+   59  cd /c/Users/Rhiannon/softcarp
+   60  Rscript species_counts.R data_greencanyon_2013.txt 
+   61  Rscript species_counts.R data_greencanyon_2013.txt |  sort -k 2 -n
+   62  sort help
+   63  sort--help
+   64  sort-help
+   65  sort--help
+   66  sort --help
+   67  Rscript species_counts.R data_greencanyon_2013.txt |  sort -k 1
+   68  Rscript species_counts.R data_greencanyon_2013.txt |  sort -k 1 > RcodesortedGCdat_alph.txt
+   69  ls
+   70  history
+   71  history > myawesomecode_sofar.txt
